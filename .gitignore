@@ -21,6 +21,7 @@ models/optuna_studies/
 
 # Local RiskScore store
 *.db
+temp_auto_push.bat
 
 # Runtime state / generated output
 horizon_cursor.txt
@@ -37,7 +38,6 @@ test_snapshots/
 fuzz/artifacts/
 
 # Editors
-.vscode/
 .idea/
 
 # Project specific
@@ -46,3 +46,5 @@ somzilla.md
 
 *.nbi
 *.nbc
+.gitignore
+branch_structure.json
